@@ -52,3 +52,16 @@ body {
 .mb-1 {
     letter-spacing: 2px;
 }
+
+@media(min-width: 375px) {
+    #flex {
+        margin-left: 3rem;
+      
+    }
+    #shift {
+        margin-left: 9rem;
+    }
+    .paragraph {
+        margin-left: 3rem;
+    }
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: #f1faee;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-around;
+}
+#button {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.head {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-left: 0px;
+    font-weight: 100;
+}
+#button:hover,
+#shift:hover {
+    background-color: #212529;
+    color: #f1faee;
+}
+#flex {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.paragraph {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+#shift {
+    margin-left: 15rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+
+@media(max-width: 1200px) {
+.head,
+#button {
+    margin-left: 0px;
+}
+}
+.mb-1 {
+    letter-spacing: 2px;
+}
